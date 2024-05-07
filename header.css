@@ -1,0 +1,120 @@
+/* Add or modify styles here */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.code {
+  font-size: 36px;
+  text-decoration: none;
+  color: white;
+}
+.profile-wrapper {
+  position: relative;
+}
+.profile-icon {
+  cursor: pointer;
+  position: relative;
+}
+.profile-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 15px);
+  right: 0;
+  background-color: rgb(169, 217, 240);
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.signup,
+.signin {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 0px;
+  margin-left: 5px;
+  margin-top: 7px;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+}
+
+.window {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 180px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.window .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #888;
+}
+
+.signupbtn {
+  background-color: #07b33a;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 300px;
+}
+
+.signinbtn {
+  background-color:#07b33a;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 300px;
+}
+
+.signupbtn:hover, .signinbtn:hover {
+  background-color: rgb(80, 180, 247);
+}
+
+.signinbtn a, .signupbtn a {
+  text-decoration: none;
+  color: white;
+}

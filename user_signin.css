@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-content {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .main-content h1 {
+    font-size: 36px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(50% - 20px);
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button[type="submit"] {
+    width: calc(10% - 20px);
+    background-color: #07b33a;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  .reset {
+    text-decoration: none;
+    color: rgb(34, 84, 248);
+    font-size:18px;
+  }
+
+  .signup {
+    text-decoration: none;
+    color: rgb(34, 84, 248);
+    font-size: 18px;
+  }
+
+  .reset:hover {
+    color:red;
+  }
+
+  .signup:hover {
+    color: #07b33a;
+  }
+
+  .code {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
