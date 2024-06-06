@@ -7,7 +7,10 @@
   <link rel="stylesheet" href="home.css">
 </head>
 <body>
-<?php include 'header.php'; ?>
+<?php
+include 'dbcon.php';
+include 'header.php';
+?>
 
 <div class="main-content">
   <h1>Welcome to CodePlus</h1>
@@ -17,7 +20,7 @@
 <div class="product-container">
   <div class="product">
     <div class="product-image">
-      <img src="pics/web-design.png">
+      <a href="company.php"> <img src="pics/web-design.png"> </a>
     </div>
     <div>
       <h2>Web Development</h2>
@@ -29,7 +32,7 @@
   </div>
   <div class="product">
     <div class="product-image">
-      <img src="pics/mobile_app_development.png">
+    <a href="company.php"> <img src="pics/mobile_app_development.png"> </a>
     </div>
     <div>
       <h2>Mobile App Development</h2>
@@ -41,7 +44,7 @@
   </div>
   <div class="product">
     <div class="product-image">
-      <img src="pics/soft_dev.jpg">
+    <a href="company.php"> <img src="pics/soft_dev.jpg"> </a>
     </div>
     <div>
       <h2>Software Development</h2>
@@ -53,7 +56,7 @@
   </div>
   <div class="product">
     <div class="product-image">
-      <img src="pics/database_dev.jpg">
+    <a href="company.php"> <img src="pics/database_dev.jpg"> </a>
     </div>
     <div>
       <h2>Database Development</h2>
@@ -65,7 +68,7 @@
   </div>  
   <div class="product">
     <div class="product-image">
-      <img src="pics/Graphic_Design.jpg">
+    <a href="company.php"> <img src="pics/Graphic_Design.jpg"> </a>
     </div>
     <div>
       <h2>Graphic Design & Multimedia</h2>
@@ -77,7 +80,7 @@
   </div>  
   <div class="product">
     <div class="product-image">
-      <img src="pics/Digital_Marketing.jpg">
+    <a href="company.php"> <img src="pics/Digital_Marketing.jpg"> </a>
     </div>
     <div>
       <h2>Digital Marketing</h2>
@@ -89,7 +92,7 @@
   </div>  
   <div class="product">
     <div class="product-image">
-      <img src="pics/architecture-and-engineering.jpg">
+    <a href="company.php"> <img src="pics/architecture-and-engineering.jpg"> </a>
     </div>
     <div>
       <h2>Engineering & Architecture</h2>
@@ -101,7 +104,7 @@
   </div>  
   <div class="product">
     <div class="product-image">
-      <img src="pics/business-financing.jpg">
+    <a href="company.php"> <img src="pics/business-financing.jpg"> </a>
     </div>
     <div>
       <h2>Business & Finance</h2>

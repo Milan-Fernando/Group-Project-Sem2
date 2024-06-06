@@ -7,7 +7,10 @@
   <link rel="stylesheet" href="user_signin.css">
 </head>
 <body>
-<?php include 'header.php'; ?>
+<?php
+include 'dbcon.php';
+include 'header.php';
+?>
 
 
 <div class="main-content">
